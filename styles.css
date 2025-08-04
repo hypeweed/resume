@@ -1,0 +1,107 @@
+.nav-item {
+padding-left: 20px;
+}
+#personal-resume {
+    background-color: #F3E2D4;
+}
+.avatar {
+    border-radius: 50%;
+}
+#personal {
+    background-color: #F3E2D4;
+}
+.navbar {
+    background-color: #C5B0CD;
+}
+.nav-item > .btn {
+    color: yellow;
+}
+
+#hi-there {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal
+}
+#main-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1 fr 1fr;
+    height: 100vh;
+}
+#profile-details {
+    grid-column: span 1;
+    background-color: #F2EDD1;
+    grid-row: span 1;
+}
+#profile-menu {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: #689B8A;
+}
+.list-group-items {
+    padding-left: 20px;
+}
+.scrollspy-example-2 {
+    height: 100vh;
+    overflow: auto;
+    padding: 30px;
+}
+#profile-picture {
+    display: flex;
+    justify-content: center;
+}
+.form-contact {
+    padding: 50px;
+}
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.contact-info {
+    grid-column: span 1;
+    padding: 10px;
+    background-color: #C5B0CD;
+    
+}
+.contact-us {
+    grid-column: span 2;
+    padding: 10px;
+    background-color: #415E72;
+    
+}
+.contact-info-icons {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+}
+.contact-icon {
+    grid-column: span 1;
+    grid-row: span 2;
+    padding-left: 9vh;
+}
+.album-pics {
+    border: solid #17313E;
+}
+.album-title {
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 650px) {
+      #main-grid {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+      }
+      #personal-resume {
+        display: flex;
+        flex-direction: column;
+      }
+      .contact-container {
+        display: flex;
+        flex-direction: column;
+      }
+    }
